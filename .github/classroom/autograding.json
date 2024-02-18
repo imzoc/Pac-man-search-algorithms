@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Autograding the assignment",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python ./ASSIGNMENT/autograder.py --code-directory ./ASSIGNMENT --test-directory ./ASSIGNMENT/test_cases",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
